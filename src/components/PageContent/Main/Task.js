@@ -23,7 +23,7 @@ export default function Task({
   };
   return (
     <>
-      <StyledTask darkMode={darkMode}>
+      <StyledTask darkMode={darkMode} completed={completed}>
         {completed ? (
           <input
             type={"checkbox"}

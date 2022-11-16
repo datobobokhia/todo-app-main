@@ -7,7 +7,7 @@ export default function Header({ setDarkMode, darkMode }) {
   return (
     <StyledHeader darkMode={darkMode}>
       <div>
-        <img src="/assets/photo/logo-todo.png" alt="todo" />
+        <h1>TODO</h1>
         <img
           src={
             darkMode
@@ -15,10 +15,6 @@ export default function Header({ setDarkMode, darkMode }) {
               : "/assets/photo/icon-sun.svg"
           }
           alt="moon"
-          style={{
-            width: "20px",
-            height: "20px",
-          }}
           onClick={handelDarkMode}
         />
       </div>
