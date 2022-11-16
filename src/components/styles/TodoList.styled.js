@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const StyledTodoList = styled.div`
   position: absolute;
-  top: 180px;
-  width: 80%;
+  top: 246px;
+  width: 50%;
   background-color: ${(props) => (props.darkMode ? "#25273d" : "#ffffff")};
   box-shadow: ${(props) =>
     props.darkMode ? "none" : "0px 35px 50px -15px rgba(194, 195, 214, 0.5)"};
@@ -23,10 +23,10 @@ export const StyledTodoList = styled.div`
     font-family: "Josefin Sans";
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 14px;
     text-align: right;
-    letter-spacing: -0.166667px;
+    letter-spacing: -0.194444px;
     color: #9495a5;
   }
   h1 {
@@ -36,5 +36,16 @@ export const StyledTodoList = styled.div`
     border: none;
     padding: 0px;
     margin: 0px;
+  }
+
+  @media (max-width: 480px) {
+    top: 180px;
+    width: 80%;
+
+    button {
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: -0.166667px;
+    }
   }
 `;

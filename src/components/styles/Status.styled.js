@@ -15,6 +15,12 @@ export const StyledStatus = styled.div`
     background: none;
     border: none;
     cursor: pointer;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.194444px;
   }
 
   button:focus {

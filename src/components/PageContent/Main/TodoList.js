@@ -45,7 +45,8 @@ export default function TodoList({
               margin: "0",
               padding: "0",
               fontFamily: "Josefin Sans",
-              fontSize: "12px",
+              fontSize: "14px",
+              lineHeight: "14px",
               color: "#5B5E7E",
             }}
           >
