@@ -36,7 +36,7 @@ Users should be able to:
 
 ## Links
 
-* Live Site URL - https://todo-app-main-david.herokuapp.com/
+* Live Site URL - https://63cd793d434a956318ca2450--deluxe-sherbet-66bcb1.netlify.app/
 * Github Repository - https://github.com/datobobokhia/todo-app-main
 
 ## Contact Info
